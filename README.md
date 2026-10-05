@@ -2,7 +2,7 @@
 Clone do Pinterest desenvolvido em Flask e Python como parte de estudos de backend e web development.
 
 ## Tecnologias usadas
-- Python 3.8+
+- **Python 3.12.8** (ou superior)
 - Flask (framework principal)
 - Flask-Login (Autenticação de usuários)
 - Flask-SQLAlchemy (ORM para banco de dados)
@@ -21,10 +21,12 @@ Clone do Pinterest desenvolvido em Flask e Python como parte de estudos de backe
 ## Como rodar o projeto
 
 ### 1. Clone este repositório
-- git clone https://github.com/miguel-goncalves-pirote-dev/ProjetoFakePinterest
+```bash
+git clone https://github.com/miguel-goncalves-pirote-dev/ProjetoFakePinterest
+```
 
 ### 2. Crie e ative um ambiente virtual
-- python -m venv .venv (Cria o ambiente)
+- python -m venv .venv (Cria o ambiente) **OU** py -3.12 -m venv .venv (Para evitar conflito de versões)
 - .venv\Scripts\activate (Ativa ambiente no Windows)
 - source .venv/bin/activate (Ativa ambiente em Linux/Mac)
 
